@@ -1,0 +1,29 @@
+Different Messages Base on Time of day
+hour = int(input("Enter current hour (0-23): "))
+
+if hour < 12:
+    print("Good Morning!")
+elif hour < 18:
+    print("Good Afternoon!")
+else:
+    print("Good Evening!")
+
+
+Number Guessing Game
+secret = 7
+guess = int(input("Guess a number: "))
+
+if guess == secret:
+    print("Correct!")
+else:
+    print("Wrong guess!")
+
+Print Number from 1 to 100
+for i in range(1, 101):
+    print(i)
+
+Function to calculate are of rectangle
+def area(length, width):
+    return length * width
+
+print(area(5, 4))
